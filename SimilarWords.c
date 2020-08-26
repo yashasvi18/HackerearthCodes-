@@ -4,7 +4,8 @@ int main(){
 	char a[100];
 	scanf("%s",a);
 	int cz=0;
-	int co=0;            			
+	int co=0;
+	// Loop
 	for(int i =0;i< strlen(a);i++)
 	{
 		if(a[i] == 'z' || a[i] == 'Z')
